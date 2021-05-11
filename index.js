@@ -6,10 +6,10 @@ const btns= document.querySelectorAll(".btn")
 btns.forEach((btn)=> {
     btn.addEventListener("click", (event)=> {
         const style = event.currentTarget.classList
-        if (style.contains("btn-danger")) {
+        if (style.contains("b1")) {
             num--;
         }
-        else if (style.contains("btn-success")) {
+        else if (style.contains("b3")) {
             num++;
         }
         
@@ -18,13 +18,13 @@ btns.forEach((btn)=> {
         }
         value.textContent=num;
         if (num>0) {
-            value.style.color = "#006400";
+            value.style.color = "#4caf50";
         }
         else if (num<0) {
-            value.style.color = "#e52b50";
+            value.style.color = "#fa5252";
         }
         else {
-            value.style.color = "#808080"
+            value.style.color = "#ffffff"
         }
     });
 })

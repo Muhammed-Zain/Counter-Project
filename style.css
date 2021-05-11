@@ -1,4 +1,5 @@
 body {
+  margin-top: 1em;
   min-height: 100%;
   font-family: sans-serif;
   text-align: center;
@@ -17,9 +18,57 @@ body {
 h1 {
   font-size: 4rem;
   font-family: "Bebas Neue", cursive;
-  color: #e8b92c;
+  color: #3399ff;
 }
 
 .value {
   font-size: 6rem;
+}
+
+.b1 {
+  background-color: #4caf50;
+  border-radius: 1.5em;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.b2 {
+  background-color: #3787ff;
+  border-radius: 1.5em;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.b3 {
+  background-color: #fa5252;
+  border-radius: 1.5em;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.b1:hover {
+  background-color: rgb(255, 255, 255);
+  color: #4caf50;
+}
+
+.b2:hover {
+  background-color: rgb(255, 255, 255);
+  color: #3787ff;
+}
+
+.b3:hover {
+  background-color: rgb(255, 255, 255);
+  color: #fa5252;
 }
