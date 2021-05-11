@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Bebas Neue", cursive;
+  color: #e8b92c;
+}
+
+.value {
+  font-size: 6rem;
+}
