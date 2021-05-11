@@ -1,6 +1,17 @@
 body {
+  min-height: 100%;
   font-family: sans-serif;
   text-align: center;
+  background-color: white;
+  background: linear-gradient(
+      to right top,
+      #3bbbf6,
+      #5db6fc,
+      #7daffe,
+      #9ba8fb,
+      #b6a0f3
+    )
+    fixed;
 }
 
 h1 {
